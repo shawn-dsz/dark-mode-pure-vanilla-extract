@@ -1,0 +1,236 @@
+.reset_base__g0lk3w0 {
+  all: unset;
+  box-sizing: border-box;
+}
+.reset_block__g0lk3w1 {
+  display: block;
+}
+html, body {
+  all: unset;
+  box-sizing: border-box;
+}
+:root {
+  --space-none__4tj7dk0: 0;
+  --space-xsmall__4tj7dk1: 5.6px;
+  --space-small__4tj7dk2: 7.839999999999999px;
+  --space-medium__4tj7dk3: 15.366399999999995px;
+  --space-large__4tj7dk4: 30.118143999999987px;
+  --border-width-small__4tj7dk5: 2px;
+  --border-width-large__4tj7dk6: 4px;
+  --border-radius-small__4tj7dk7: 4px;
+  --border-radius-large__4tj7dk8: 8px;
+  --border-color-neutral__4tj7dk9: #2d3648;
+  --border-color-neutralInverted__4tj7dka: #fff;
+  --border-color-link__4tj7dkb: #4964e9;
+  --border-color-linkLight__4tj7dkc: #68aeea;
+  --border-color-positive__4tj7dkd: #13774f;
+  --border-color-positiveLight__4tj7dke: #88dec5;
+  --border-color-field__4tj7dkf: #828ea4;
+  --color-background-body__4tj7dkg: #f6f8fa;
+  --color-background-bodyDark__4tj7dkh: #0f131b;
+  --color-background-surface__4tj7dki: #fff;
+  --color-background-surfaceDark__4tj7dkj: #1c2230;
+  --color-background-neutral__4tj7dkk: #2d3648;
+  --color-background-positive__4tj7dkl: #13774f;
+  --color-background-positiveLight__4tj7dkm: #e1f7f1;
+  --color-foreground-neutral__4tj7dkn: #2d3648;
+  --color-foreground-neutralInverted__4tj7dko: #fff;
+  --color-foreground-link__4tj7dkp: #4964e9;
+  --color-foreground-linkLight__4tj7dkq: #68aeea;
+  --color-foreground-positive__4tj7dkr: #13774f;
+  --color-foreground-positiveLight__4tj7dks: #88dec5;
+  --fontFamily-body__4tj7dkt: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fontSize-xsmall__4tj7dku: 12px;
+  --fontSize-small__4tj7dkv: 18.24280680158621px;
+  --fontSize-medium__4tj7dkw: 23.715648842062073px;
+  --fontSize-large__4tj7dkx: 35.152px;
+}
+.sprinkles_display_none__n32mpc1 {
+  display: none;
+}
+.sprinkles_display_block__n32mpc2 {
+  display: block;
+}
+.sprinkles_display_flex__n32mpc3 {
+  display: flex;
+}
+.sprinkles_flexDirection_row__n32mpc4 {
+  flex-direction: row;
+}
+.sprinkles_flexDirection_column__n32mpc5 {
+  flex-direction: column;
+}
+.sprinkles_alignItems_center__n32mpc6 {
+  align-items: center;
+}
+.sprinkles_justifyContent_center__n32mpc7 {
+  justify-content: center;
+}
+.sprinkles_gap_none__n32mpc8 {
+  gap: var(--space-none__4tj7dk0);
+}
+.sprinkles_gap_xsmall__n32mpc9 {
+  gap: var(--space-xsmall__4tj7dk1);
+}
+.sprinkles_gap_small__n32mpca {
+  gap: var(--space-small__4tj7dk2);
+}
+.sprinkles_gap_medium__n32mpcb {
+  gap: var(--space-medium__4tj7dk3);
+}
+.sprinkles_gap_large__n32mpcc {
+  gap: var(--space-large__4tj7dk4);
+}
+.sprinkles_padding_none__n32mpcd {
+  padding: var(--space-none__4tj7dk0);
+}
+.sprinkles_padding_xsmall__n32mpce {
+  padding: var(--space-xsmall__4tj7dk1);
+}
+.sprinkles_padding_small__n32mpcf {
+  padding: var(--space-small__4tj7dk2);
+}
+.sprinkles_padding_medium__n32mpcg {
+  padding: var(--space-medium__4tj7dk3);
+}
+.sprinkles_padding_large__n32mpch {
+  padding: var(--space-large__4tj7dk4);
+}
+.sprinkles_width_100vw__n32mpci {
+  width: 100vw;
+}
+.sprinkles_height_100vh__n32mpcj {
+  height: 100vh;
+}
+.sprinkles_fontFamily_body__n32mpck {
+  font-family: var(--fontFamily-body__4tj7dkt);
+}
+.sprinkles_fontSize_xsmall__n32mpcl {
+  font-size: var(--fontSize-xsmall__4tj7dku);
+}
+.sprinkles_fontSize_small__n32mpcm {
+  font-size: var(--fontSize-small__4tj7dkv);
+}
+.sprinkles_fontSize_medium__n32mpcn {
+  font-size: var(--fontSize-medium__4tj7dkw);
+}
+.sprinkles_fontSize_large__n32mpco {
+  font-size: var(--fontSize-large__4tj7dkx);
+}
+.sprinkles_border_neutral__n32mpcp {
+  --borderWidth__n32mpc0: 1px;
+  border: var(--borderWidth__n32mpc0) solid var(--border-color-neutral__4tj7dk9);
+}
+.sprinkles_border_neutralInverted__n32mpcq {
+  --borderWidth__n32mpc0: 1px;
+  border: var(--borderWidth__n32mpc0) solid var(--border-color-neutralInverted__4tj7dka);
+}
+.sprinkles_border_link__n32mpcr {
+  --borderWidth__n32mpc0: 1px;
+  border: var(--borderWidth__n32mpc0) solid var(--border-color-link__4tj7dkb);
+}
+.sprinkles_border_linkLight__n32mpcs {
+  --borderWidth__n32mpc0: 1px;
+  border: var(--borderWidth__n32mpc0) solid var(--border-color-linkLight__4tj7dkc);
+}
+.sprinkles_border_positive__n32mpct {
+  --borderWidth__n32mpc0: 1px;
+  border: var(--borderWidth__n32mpc0) solid var(--border-color-positive__4tj7dkd);
+}
+.sprinkles_border_positiveLight__n32mpcu {
+  --borderWidth__n32mpc0: 1px;
+  border: var(--borderWidth__n32mpc0) solid var(--border-color-positiveLight__4tj7dke);
+}
+.sprinkles_border_field__n32mpcv {
+  --borderWidth__n32mpc0: 1px;
+  border: var(--borderWidth__n32mpc0) solid var(--border-color-field__4tj7dkf);
+}
+.sprinkles_borderWidth_small__n32mpcw {
+  --borderWidth__n32mpc0: var(--border-width-small__4tj7dk5);
+}
+.sprinkles_borderWidth_large__n32mpcx {
+  --borderWidth__n32mpc0: var(--border-width-large__4tj7dk6);
+}
+.sprinkles_borderRadius_small__n32mpcy {
+  border-radius: var(--border-radius-small__4tj7dk7);
+}
+.sprinkles_borderRadius_large__n32mpcz {
+  border-radius: var(--border-radius-large__4tj7dk8);
+}
+.sprinkles_textAlign_center__n32mpc10 {
+  text-align: center;
+}
+.Text_tone_neutral__1eagzll3 {
+  color: var(--neutral__1eagzll0);
+}
+.Text_tone_positive__1eagzll4 {
+  color: var(--positive__1eagzll1);
+}
+.Text_tone_link__1eagzll5 {
+  color: var(--link__1eagzll2);
+}
+.Text_neutralLink__1eagzll6 {
+  --link__1eagzll2: currentColor;
+}
+.Backgrounds_background_body__1dtn7u36 {
+  --neutral__1eagzll0: var(--neutral__1dtn7u30);
+  --positive__1eagzll1: var(--positive__1dtn7u31);
+  --link__1eagzll2: var(--link__1dtn7u32);
+  background: var(--body__1dtn7u33);
+}
+.Backgrounds_background_surface__1dtn7u37 {
+  --neutral__1eagzll0: var(--neutral__1dtn7u30);
+  --positive__1eagzll1: var(--positive__1dtn7u31);
+  --link__1eagzll2: var(--link__1dtn7u32);
+  background: var(--surface__1dtn7u34);
+}
+.Backgrounds_background_neutral__1dtn7u38 {
+  --neutral__1eagzll0: var(--color-foreground-neutralInverted__4tj7dko);
+  --positive__1eagzll1: var(--positive__1dtn7u31);
+  --link__1eagzll2: var(--color-foreground-linkLight__4tj7dkq);
+  background: var(--color-background-neutral__4tj7dkk);
+}
+.Backgrounds_background_positive__1dtn7u39 {
+  --neutral__1eagzll0: var(--color-foreground-neutralInverted__4tj7dko);
+  --positive__1eagzll1: var(--neutral__1eagzll0);
+  --link__1eagzll2: var(--neutral__1eagzll0);
+  --surface__1dtn7u34: var(--color-background-surface__4tj7dki);
+  background: var(--color-background-positive__4tj7dkl);
+}
+.Backgrounds_background_positiveLight__1dtn7u3a {
+  --neutral__1eagzll0: var(--positive__1dtn7u31);
+  --positive__1eagzll1: var(--neutral__1eagzll0);
+  --link__1eagzll2: var(--neutral__1eagzll0);
+  background: var(--positiveLight__1dtn7u35);
+}
+.Backgrounds_background_customDark__1dtn7u3b {
+  --neutral__1eagzll0: var(--color-foreground-neutralInverted__4tj7dko);
+  --positive__1eagzll1: var(--color-foreground-positiveLight__4tj7dks);
+  --link__1eagzll2: var(--neutral__1eagzll0);
+}
+.Backgrounds_background_customLight__1dtn7u3c {
+  --neutral__1eagzll0: var(--color-foreground-neutral__4tj7dkn);
+  --positive__1eagzll1: var(--color-foreground-positive__4tj7dkr);
+  --link__1eagzll2: var(--neutral__1eagzll0);
+}
+.Backgrounds_defaultLight__1dtn7u3d {
+  --neutral__1dtn7u30: var(--color-foreground-neutral__4tj7dkn);
+  --positive__1dtn7u31: var(--color-foreground-positive__4tj7dkr);
+  --link__1dtn7u32: var(--color-foreground-link__4tj7dkp);
+  --body__1dtn7u33: var(--color-background-body__4tj7dkg);
+  --surface__1dtn7u34: var(--color-background-surface__4tj7dki);
+  --positiveLight__1dtn7u35: var(--color-background-positiveLight__4tj7dkm);
+}
+.Backgrounds_defaultDark__1dtn7u3e {
+  --neutral__1dtn7u30: var(--color-foreground-neutralInverted__4tj7dko);
+  --positive__1dtn7u31: var(--color-foreground-positiveLight__4tj7dks);
+  --link__1dtn7u32: var(--color-foreground-linkLight__4tj7dkq);
+  --body__1dtn7u33: var(--color-background-bodyDark__4tj7dkh);
+  --surface__1dtn7u34: var(--color-background-surfaceDark__4tj7dkj);
+  --positiveLight__1dtn7u35: var(--color-background-neutral__4tj7dkk);
+}
+.TextLink_underline__ew8lz30 {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=main.css.map*/
