@@ -7,7 +7,9 @@
   "author": "SEEK",
   "scripts": {
     "start": "webpack serve",
-    "build": "webpack"
+    "build": "webpack",
+    "playroom:start": "playroom start",
+    "playroom:build": "playroom build"
   },
   "private": true,
   "dependencies": {
@@ -23,7 +25,7 @@
     "css-loader": "^5.2.4",
     "html-webpack-plugin": "^5.3.1",
     "lodash.mapvalues": "4.6.0",
-    "mini-css-extract-plugin": "^1.5.1",
+    "mini-css-extract-plugin": "^2.6.0",
     "polished": "^4.1.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -35,6 +37,8 @@
   "devDependencies": {
     "@types/react": "^17",
     "@types/react-dom": "^17",
-    "@types/tailwindcss": "^2"
+    "@types/tailwindcss": "^2",
+    "playroom": "^0.28.0",
+    "sku": "^11.4.0"
   }
 }
