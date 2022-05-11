@@ -1,5 +1,6 @@
-import { Box } from "../Box/Box";
-import { Text } from "../Text/Text";
+import React from 'react';
+import { Box } from '../Box/Box';
+import { Text } from '../Text/Text';
 
 export const Badge = () => (
   <Box display="flex">
