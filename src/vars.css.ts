@@ -1,4 +1,8 @@
-import { createGlobalTheme } from '@vanilla-extract/css';
+import {
+  createGlobalTheme,
+  createThemeContract,
+  createTheme,
+} from '@vanilla-extract/css';
 import { modularScale } from 'polished';
 import { isLight } from './isLight';
 import mapValues from 'lodash.mapvalues';
@@ -28,11 +32,11 @@ const foreground = {
   positiveLight: '#88dec5',
 };
 
-export const lightness = mapValues(background, (color, name) => {
-  return isLight(color, foreground.neutral) ? 'light' : 'dark';
-});
+export const lightness = mapValues(background, (color, name) =>
+  isLight(color, foreground.neutral) ? 'light' : 'dark',
+);
 
-export const vars = createGlobalTheme(':root', {
+const tokens = {
   space: {
     none: '0',
     xsmall: spaceScale(1),
@@ -66,5 +70,17 @@ export const vars = createGlobalTheme(':root', {
     small: fontSizeScale(0.5),
     medium: fontSizeScale(1.5),
     large: fontSizeScale(3),
+  },
+};
+export const vars = createThemeContract(tokens);
+
+export const guestTheme = createTheme(vars, {
+  ...tokens,
+});
+
+export const manageTheme = createTheme(vars, {
+  ...tokens,
+  fontFamily: {
+    body: "'Comic Sans MS', 'Comic Sans', 'Chalkboard SE', 'Chalkboard', 'cursive', sans-serif",
   },
 });
