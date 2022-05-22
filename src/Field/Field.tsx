@@ -1,6 +1,7 @@
-import { Box } from "../Box/Box";
-import { Stack } from "../Stack/Stack";
-import { Text } from "../Text/Text";
+import React from 'react';
+import { Box } from '../Box/Box';
+import { Stack } from '../Stack/Stack';
+import { Text } from '../Text/Text';
 
 export const Field = () => (
   <Stack space="xsmall">
@@ -12,7 +13,7 @@ export const Field = () => (
       padding="small"
       borderRadius="large"
       border="field"
-      style={{ height: 44, width: "100%" }}
+      style={{ height: 44, width: '100%' }}
     >
       <Text>Field</Text>
     </Box>
