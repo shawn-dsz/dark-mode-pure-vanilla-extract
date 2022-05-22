@@ -1,6 +1,7 @@
 node_modules
+
 # managed by sku
-.eslintrc
+.eslintrcgst
 .prettierrc
 coverage/
 dist-storybook/
