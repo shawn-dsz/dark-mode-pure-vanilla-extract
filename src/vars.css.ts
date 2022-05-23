@@ -1,13 +1,9 @@
-import {
-  createGlobalTheme,
-  createThemeContract,
-  createTheme,
-} from '@vanilla-extract/css';
+import { createGlobalTheme, createThemeContract } from '@vanilla-extract/css';
 import { modularScale } from 'polished';
 import { isLight } from './isLight';
 import mapValues from 'lodash.mapvalues';
 
-const createScale = (ratio: number, base: number) => (steps: number) =>
+export const createScale = (ratio: number, base: number) => (steps: number) =>
   `${modularScale(steps, base, ratio)}px`;
 
 const spaceScale = createScale(1.4, 4);
@@ -36,7 +32,7 @@ export const lightness = mapValues(background, (color, name) =>
   isLight(color, foreground.neutral) ? 'light' : 'dark',
 );
 
-const tokens = {
+export const tokens = {
   space: {
     none: '0',
     xsmall: spaceScale(1),
@@ -72,15 +68,51 @@ const tokens = {
     large: fontSizeScale(3),
   },
 };
+
 export const vars = createThemeContract(tokens);
 
-export const guestTheme = createTheme(vars, {
-  ...tokens,
-});
-
-export const manageTheme = createTheme(vars, {
-  ...tokens,
-  fontFamily: {
-    body: "'Comic Sans MS', 'Comic Sans', 'Chalkboard SE', 'Chalkboard', 'cursive', sans-serif",
-  },
-});
+// interface Tokens {
+//   space: {
+//     none: string;
+//     xsmall: string;
+//     small: string;
+//     medium: string;
+//     large: string;
+//   };
+//   border: {
+//     width: {
+//       small: string;
+//       large: string;
+//     };
+//     radius: {
+//       small: string;
+//       large: string;
+//     };
+//     color: {
+//       neutral: string;
+//       neutralInverted: string;
+//       link: string;
+//       linkLight: string;
+//       positive: string;
+//       positiveLight: string;
+//       field: string;
+//     };
+//   };
+//   color: {
+//     neutral: string;
+//     neutralInverted: string;
+//     link: string;
+//     linkLight: string;
+//     positive: string;
+//     positiveLight: string;
+//   };
+//   fontFamily: {
+//     body: string;
+//   };
+//   fontSize: {
+//     xsmall: string;
+//     small: string;
+//     medium: string;
+//     large: string;
+//   };
+// }
