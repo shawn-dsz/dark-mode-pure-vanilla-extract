@@ -7,7 +7,7 @@ module.exports = {
   outputPath: './dist/playroom',
   title: 'Yum UI',
   typeScriptFiles: ['src/**/*.{ts,tsx}', '!**/node_modules'],
-
+  frameComponent: './src/playroom/FrameComponent.tsx',
   widths: [320, 820, 1400],
   webpackConfig: () => ({
     plugins: [

@@ -23,6 +23,6 @@
   },
   "include": [
     "/Users/shawn/proj/dark-mode-pure-vanilla-extract/src",
-    "/Users/shawn/proj/dark-mode-pure-vanilla-extract/node_modules/.pnpm/sku@11.4.0_hbq3og5ggyvidwc23zjh2grj4y/node_modules/sku/lib/placeholder.ts"
-  ]
+    "/Users/shawn/proj/dark-mode-pure-vanilla-extract/node_modules/sku/lib/placeholder.ts"
+, "src/playroom/FrameComponent.tsx"  ]
 }

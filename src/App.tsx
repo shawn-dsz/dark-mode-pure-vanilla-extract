@@ -8,6 +8,7 @@ const App = () => {
   const [isDarkTheme, setIsDarkTheme] = useState(false);
 
   const colorTheme = isDarkTheme ? styles.defaultDark : styles.defaultLight;
+
   return (
     <>
       <button
