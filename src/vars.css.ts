@@ -59,7 +59,7 @@ export const tokens = {
     foreground,
   },
   fontFamily: {
-    body: "'Circular', 'Helvetica Neue', Helvetica",
+    body: "'CircularXX', 'Helvetica Neue', Helvetica",
   },
   fontSize: {
     xsmall: '12px',
