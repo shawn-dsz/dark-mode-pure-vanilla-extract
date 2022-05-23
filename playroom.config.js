@@ -3,9 +3,10 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const path = require('path');
 
 module.exports = {
-  components: './src/components.ts',
+  components: './src/playroom/components.ts',
   outputPath: './dist/playroom',
   title: 'Yum UI',
+  snippets: './src/playroom/snippets.ts',
   typeScriptFiles: ['src/**/*.{ts,tsx}', '!**/node_modules'],
   frameComponent: './src/playroom/FrameComponent.tsx',
   widths: [320, 820, 1400],
