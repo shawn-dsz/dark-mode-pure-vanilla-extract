@@ -1,4 +1,4 @@
-import { createGlobalTheme, createThemeContract } from '@vanilla-extract/css';
+import { createThemeContract } from '@vanilla-extract/css';
 import { modularScale } from 'polished';
 import { isLight } from './isLight';
 import mapValues from 'lodash.mapvalues';

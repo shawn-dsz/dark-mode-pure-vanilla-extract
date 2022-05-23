@@ -9,8 +9,8 @@ const background = {
   surface: '#fff',
   surfaceDark: '#1c2230',
   neutral: '#2d3648',
-  positive: '#133a77',
-  positiveLight: '#e1f7f1',
+  positive: '#771355',
+  positiveLight: '#f7e1f5',
 } as const;
 
 const foreground = {
@@ -18,7 +18,7 @@ const foreground = {
   neutralInverted: '#fff',
   link: '#499ee9',
   linkLight: '#68aeea',
-  positive: '#179437',
+  positive: '#94177a',
   positiveLight: '#88dec5',
 };
 export const manageTheme = createTheme(vars, {
