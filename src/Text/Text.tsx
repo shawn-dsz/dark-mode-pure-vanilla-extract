@@ -9,8 +9,7 @@ interface Props {
   size?: keyof typeof vars.fontSize;
 }
 
-export const Text = ({ children, tone = "neutral", size = "small" }: Props) => {
-  return (
+export const Text = ({ children, tone = "neutral", size = "small" }: Props) => (
     <Box
       as="span"
       display="block"
@@ -24,4 +23,3 @@ export const Text = ({ children, tone = "neutral", size = "small" }: Props) => {
       {children}
     </Box>
   );
-};
