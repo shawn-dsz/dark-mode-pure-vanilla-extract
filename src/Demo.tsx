@@ -6,6 +6,7 @@ import { Text } from './Text/Text';
 import { TextLink } from './TextLink/TextLink';
 import { Alert } from './Alert/Alert';
 import { Field } from './Field/Field';
+import { Button } from './Button/Button';
 
 const CustomColorTest = () => (
   <Box>
@@ -76,7 +77,6 @@ export const Demo = () => (
           <Field />
           <CustomColorTest />
           <TextTest />
-
           <Alert dark>
             <Field />
             <CustomColorTest />
